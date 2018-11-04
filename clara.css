@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+/* referencia de tags */
+div {
+    background-color: blueviolet
+}
+
+/* referenciar classes*/
+.nome {
+    color: azure;
+    font-size: 20px
+}
+
+#retangulo {
+    width: 100%;
+    height: 100%;
+    background-color: green
+}
+
+#losango {
+    width: 70%;
+    height: 70%;
+    background-color: yellow;
+    transform: rotate(-45deg);
+
+    z-index: 1;
+}
+
+#circulo {
+    width: 40%;
+    height: 60%;
+    background-color: blue;
+    border-radius: 50%;
+    z-index: 2;
+}
+
